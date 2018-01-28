@@ -518,7 +518,7 @@ Create an order for the specified trading pair.
 _Create an order to sell 5 GAS for NEO at the specified price:_
 
 ```javascript
-kc.createWithdrawal({
+kc.createOrder({
   pair: 'GAS-NEO',
   amount: 5,
   price: 0.608004
