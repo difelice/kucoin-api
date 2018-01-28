@@ -518,7 +518,7 @@ class Kucoin {
    * @param {{pair: string, amount: number, price: number, type: string}} params Order details including the trading pair, amount, price, and type of order.
    * @return {Promise} An object containing the API response.
    * @example <caption>Create an order to sell 5 GAS for NEO at the specified price:</caption>
-   * kc.createWithdrawal({
+   * kc.createOrder({
    *   pair: 'GAS-NEO',
    *   amount: 5,
    *   price: 0.608004
